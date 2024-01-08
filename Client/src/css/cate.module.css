@@ -1,0 +1,55 @@
+.menu {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 65px 15px 15px 25px;
+    padding: 15px;
+    background-image: url('https://cdn.wallpapersafari.com/34/35/nUjHfD.jpg');
+    padding: px;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  
+  .menu h1 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .menu .post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .menu .post:hover {
+    opacity: 0.9;
+  }
+  
+  .menu .post:hover h2 {
+    color: #ffff00;
+  }
+  
+  .menu .post h2 {
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .menu .post button {
+    display: none;
+  }
+  
